@@ -3,11 +3,6 @@ const Navigation = ({ currentPage, handlePageChange }) => {
     <nav>
       <ul className="flex flex-row gap-x-4 justify-center">
         <li>
-          <a href="#home" onClick={() => handlePageChange("Home")}>
-            Home
-          </a>
-        </li>
-        <li>
           <a href="#about" onClick={() => handlePageChange("About")}>
             About
           </a>
