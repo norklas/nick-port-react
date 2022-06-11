@@ -1,7 +1,7 @@
 const Navigation = ({ currentPage, handlePageChange }) => {
   return (
     <nav>
-      <ul className="flex flex-row gap-x-4 justify-center">
+      <ul className="flex flex-row gap-x-4 justify-center text-lg">
         <li>
           <a href="#about" onClick={() => handlePageChange("About")}>
             About
