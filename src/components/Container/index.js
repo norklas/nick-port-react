@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Projects from "../pages/Projects";
-import Navigation from "../Navigation";
+import Header from "../Header";
 
 const Container = () => {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -25,10 +25,7 @@ const Container = () => {
 
   return (
     <div>
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );
