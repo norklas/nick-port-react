@@ -39,20 +39,32 @@ const Header = ({ currentPage, handlePageChange }) => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="#about" onClick={() => handlePageChange("About")}>
+                <a
+                  href="#about"
+                  onClick={() =>
+                    handlePageChange("About") + setIsNavOpen(false)
+                  }
+                >
                   About
                 </a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a
                   href="#projects"
-                  onClick={() => handlePageChange("Projects")}
+                  onClick={() =>
+                    handlePageChange("Projects") + setIsNavOpen(false)
+                  }
                 >
                   Projects
                 </a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="#contact" onClick={() => handlePageChange("Contact")}>
+                <a
+                  href="#contact"
+                  onClick={() =>
+                    handlePageChange("Contact") + setIsNavOpen(false)
+                  }
+                >
                   Contact
                 </a>
               </li>
