@@ -4,7 +4,7 @@ const Header = ({ currentPage, handlePageChange }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-8">
+    <div className="flex items-center justify-between border-b border-gray-400 py-6">
       <a href="/">
         <p>Nick Melanson | Frontend Developer</p>
       </a>

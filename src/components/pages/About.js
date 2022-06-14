@@ -2,7 +2,7 @@ import avatar from "../../assets/images/avatar.jpg";
 
 const About = () => {
   return (
-    <div className="my-20 flex flex-row items-center justify-center px-3">
+    <div className="mt-20 flex flex-row justify-center px-3">
       <div>
         <div className="flex justify-center pb-10">
           <img
