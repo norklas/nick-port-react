@@ -20,10 +20,10 @@ const Container = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-    </div>
+      <main className="flex-grow">{renderPage()}</main>
+    </>
   );
 };
 
