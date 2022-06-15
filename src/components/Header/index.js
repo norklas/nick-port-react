@@ -50,12 +50,22 @@ const Header = ({ currentPage, handlePageChange }) => {
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a
-                  href="#projects"
+                  href="#portfolio"
                   onClick={() =>
-                    handlePageChange("Projects") + setIsNavOpen(false)
+                    handlePageChange("Portfolio") + setIsNavOpen(false)
                   }
                 >
-                  Projects
+                  Portfolio
+                </a>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <a
+                  href="#skills"
+                  onClick={() =>
+                    handlePageChange("Skills") + setIsNavOpen(false)
+                  }
+                >
+                  Skills
                 </a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
@@ -79,8 +89,13 @@ const Header = ({ currentPage, handlePageChange }) => {
             </a>
           </li>
           <li>
-            <a href="#projects" onClick={() => handlePageChange("Projects")}>
-              Projects
+            <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={() => handlePageChange("Skills")}>
+              Skills
             </a>
           </li>
           <li>
