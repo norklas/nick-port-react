@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="border-t border-celeste text-celeste py-6">
       <div className="flex flex-row justify-center gap-x-3">
         <a
-          href="https://www.linkedin/in/nick-melanson"
+          href="https://www.linkedin.com/in/nick-melanson/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-4xl hover:text-green-spring transform hover:scale-110 transition duration-2000 ease-out"

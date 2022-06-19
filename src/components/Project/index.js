@@ -8,12 +8,16 @@ const Project = ({ src, hrefLive, hrefGithub, title, description }) => {
         <p className="mb-3 font-normal">{description}</p>
         <div className="flex justify-center space-x-2">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={hrefLive}
             className="inline-flex items-center py-2 px-6 text-sm font-medium text-center rounded-lg bg-corduroy text-celeste hover:bg-oslo-gray focus:ring-2 focus:outline-none focus:ring-corduroy"
           >
             Live
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={hrefGithub}
             className="inline-flex items-center py-2 px-3 text-sm font-medium text-center rounded-lg bg-corduroy text-celeste hover:bg-oslo-gray focus:ring-2 focus:outline-none focus:ring-corduroy"
           >
