@@ -47,7 +47,10 @@ const Contact = () => {
         onSubmit={handleSubmit}
       >
         <div className="text-center my-2">
-          <h1>Contact me</h1>
+          <h1>
+            Contact me or feel free to email me at{" "}
+            <a href="mailto:nickm890@gmail.com">nickm890@gmail.com</a>
+          </h1>
         </div>
         <input
           type="text"
