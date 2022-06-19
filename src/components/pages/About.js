@@ -2,13 +2,13 @@ import avatar from "../../assets/images/avatar.jpg";
 
 const About = () => {
   return (
-    <div className="mt-20 flex flex-row justify-center px-3">
+    <div className="mt-20 flex flex-row justify-center px-3 text-celeste">
       <div>
         <div className="flex justify-center pb-10">
           <img
             src={avatar}
             alt="Nick"
-            className="rounded-full"
+            className="rounded-full border-celeste border-2"
             width="150"
             height="150"
           />

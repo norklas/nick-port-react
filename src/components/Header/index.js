@@ -4,8 +4,8 @@ const Header = ({ currentPage, handlePageChange }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-6">
-      <a href="/">
+    <div className="flex items-center justify-between border-b border-celeste py-6 text-celeste">
+      <a href="/" className="text-lg font-bold">
         <p>Nick Melanson | Frontend Developer</p>
       </a>
       <nav>
@@ -14,9 +14,9 @@ const Header = ({ currentPage, handlePageChange }) => {
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-celeste"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-celeste"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-celeste"></span>
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -25,7 +25,7 @@ const Header = ({ currentPage, handlePageChange }) => {
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 text-gray-600"
+                className="h-8 w-8 text-celeste"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -38,7 +38,7 @@ const Header = ({ currentPage, handlePageChange }) => {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-celeste my-8 uppercase">
                 <a
                   href="#about"
                   onClick={() =>
@@ -48,7 +48,7 @@ const Header = ({ currentPage, handlePageChange }) => {
                   About
                 </a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-celeste my-8 uppercase">
                 <a
                   href="#portfolio"
                   onClick={() =>
@@ -58,7 +58,7 @@ const Header = ({ currentPage, handlePageChange }) => {
                   Portfolio
                 </a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-celeste my-8 uppercase">
                 <a
                   href="#skills"
                   onClick={() =>
@@ -68,7 +68,7 @@ const Header = ({ currentPage, handlePageChange }) => {
                   Skills
                 </a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-celeste my-8 uppercase">
                 <a
                   href="#contact"
                   onClick={() =>
@@ -84,23 +84,47 @@ const Header = ({ currentPage, handlePageChange }) => {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           <li>
-            <a href="#about" onClick={() => handlePageChange("About")}>
-              About
+            <a
+              className="cursor-pointer rounded-md px-2 py-[0.10rem] text-md"
+              href="#about"
+              onClick={() => handlePageChange("About")}
+            >
+              <span className="link-underline link-underline-colored">
+                About
+              </span>
             </a>
           </li>
           <li>
-            <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
-              Portfolio
+            <a
+              className="cursor-pointer rounded-md px-2 py-[0.10rem] text-md"
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+            >
+              <span className="link-underline link-underline-colored">
+                Portfolio
+              </span>
             </a>
           </li>
           <li>
-            <a href="#skills" onClick={() => handlePageChange("Skills")}>
-              Skills
+            <a
+              className="cursor-pointer rounded-md px-2 py-[0.10rem] text-md"
+              href="#skills"
+              onClick={() => handlePageChange("Skills")}
+            >
+              <span className="link-underline link-underline-colored">
+                Skills
+              </span>
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={() => handlePageChange("Contact")}>
-              Contact
+            <a
+              className="cursor-pointer rounded-md px-2 py-[0.10rem] text-md"
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+            >
+              <span className="link-underline link-underline-colored">
+                Contact
+              </span>
             </a>
           </li>
         </ul>
@@ -116,7 +140,7 @@ const Header = ({ currentPage, handlePageChange }) => {
         height: 100vh;
         top: 0;
         left: 0;
-        background: white;
+        background: #5F7470;
         z-index: 10;
         display: flex;
         flex-direction: column;
