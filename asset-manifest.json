@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nick-port-react/static/css/main.d1819c69.css",
+    "main.js": "/nick-port-react/static/js/main.44e3a460.js",
+    "static/js/787.a9333550.chunk.js": "/nick-port-react/static/js/787.a9333550.chunk.js",
+    "static/media/where-wander.png": "/nick-port-react/static/media/where-wander.b482f3f1c5f931d174c6.png",
+    "static/media/avatar.jpg": "/nick-port-react/static/media/avatar.6ad5a6494ea642026511.jpg",
+    "static/media/nextjs-port.jpg": "/nick-port-react/static/media/nextjs-port.cced6d986c5721a36fe4.jpg",
+    "static/media/weather-dash.jpg": "/nick-port-react/static/media/weather-dash.a0775e670bb09181fc33.jpg",
+    "static/media/fira-sans-all-400-normal.woff": "/nick-port-react/static/media/fira-sans-all-400-normal.a53186151b57dec16d41.woff",
+    "static/media/go-fish-home.png": "/nick-port-react/static/media/go-fish-home.55cd467b45c6c6e0d6c5.png",
+    "static/media/tech-blog.jpg": "/nick-port-react/static/media/tech-blog.e6d7df1fc43e214d848c.jpg",
+    "static/media/note-taker.jpg": "/nick-port-react/static/media/note-taker.501a6e076cd7a3ec4abb.jpg",
+    "static/media/fira-sans-latin-ext-400-normal.woff2": "/nick-port-react/static/media/fira-sans-latin-ext-400-normal.de53e7e7580bf5bc0690.woff2",
+    "static/media/fira-sans-latin-400-normal.woff2": "/nick-port-react/static/media/fira-sans-latin-400-normal.684226288210a40c6acc.woff2",
+    "static/media/fira-sans-cyrillic-ext-400-normal.woff2": "/nick-port-react/static/media/fira-sans-cyrillic-ext-400-normal.d68444561f969b0ec505.woff2",
+    "static/media/fira-sans-greek-400-normal.woff2": "/nick-port-react/static/media/fira-sans-greek-400-normal.fc6dfdfac47f5b7efb29.woff2",
+    "static/media/fira-sans-cyrillic-400-normal.woff2": "/nick-port-react/static/media/fira-sans-cyrillic-400-normal.9bfda67e3f43aa0ea53d.woff2",
+    "static/media/fira-sans-greek-ext-400-normal.woff2": "/nick-port-react/static/media/fira-sans-greek-ext-400-normal.2a7a57f95a4f314a9945.woff2",
+    "static/media/fira-sans-vietnamese-400-normal.woff2": "/nick-port-react/static/media/fira-sans-vietnamese-400-normal.fe7c1b42f70ca2c9ae55.woff2",
+    "index.html": "/nick-port-react/index.html",
+    "main.d1819c69.css.map": "/nick-port-react/static/css/main.d1819c69.css.map",
+    "main.44e3a460.js.map": "/nick-port-react/static/js/main.44e3a460.js.map",
+    "787.a9333550.chunk.js.map": "/nick-port-react/static/js/787.a9333550.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1819c69.css",
+    "static/js/main.44e3a460.js"
+  ]
+}
