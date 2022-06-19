@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nick-port-react/static/css/main.d1819c69.css",
-    "main.js": "/nick-port-react/static/js/main.44e3a460.js",
+    "main.js": "/nick-port-react/static/js/main.65a8b88d.js",
     "static/js/787.a9333550.chunk.js": "/nick-port-react/static/js/787.a9333550.chunk.js",
     "static/media/where-wander.png": "/nick-port-react/static/media/where-wander.b482f3f1c5f931d174c6.png",
     "static/media/avatar.jpg": "/nick-port-react/static/media/avatar.6ad5a6494ea642026511.jpg",
@@ -20,11 +20,11 @@
     "static/media/fira-sans-vietnamese-400-normal.woff2": "/nick-port-react/static/media/fira-sans-vietnamese-400-normal.fe7c1b42f70ca2c9ae55.woff2",
     "index.html": "/nick-port-react/index.html",
     "main.d1819c69.css.map": "/nick-port-react/static/css/main.d1819c69.css.map",
-    "main.44e3a460.js.map": "/nick-port-react/static/js/main.44e3a460.js.map",
+    "main.65a8b88d.js.map": "/nick-port-react/static/js/main.65a8b88d.js.map",
     "787.a9333550.chunk.js.map": "/nick-port-react/static/js/787.a9333550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1819c69.css",
-    "static/js/main.44e3a460.js"
+    "static/js/main.65a8b88d.js"
   ]
 }
