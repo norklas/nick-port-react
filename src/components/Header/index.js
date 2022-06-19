@@ -5,9 +5,7 @@ const Header = ({ currentPage, handlePageChange }) => {
 
   return (
     <div className="flex items-center justify-between border-b border-celeste py-6 text-celeste">
-      <a href="#about" className="text-lg font-bold">
-        <p>Nick Melanson | Frontend Developer</p>
-      </a>
+      <h1 className="text-lg font-bold">Nick Melanson | Frontend Developer</h1>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
