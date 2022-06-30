@@ -5,6 +5,7 @@ import techBlog from "../../assets/images/tech-blog.jpg";
 import nextPort from "../../assets/images/nextjs-port.jpg";
 import weatherDashboard from "../../assets/images/weather-dash.jpg";
 import noteTaker from "../../assets/images/note-taker.jpg";
+import giv from "../../assets/images/giv.jpg";
 
 const Portfolio = () => {
   return (
@@ -17,6 +18,14 @@ const Portfolio = () => {
           description={"JavaScript/Express/Sequelize/MVC"}
           hrefLive={"https://go-fish-project-two.herokuapp.com/"}
           hrefGithub={"https://github.com/norklas/go-fish"}
+        />
+
+        <Project
+          src={giv}
+          title={"giv."}
+          description={"MERN/GraphQL/Apollo"}
+          hrefLive={"https://giv-social.herokuapp.com/"}
+          hrefGithub={"https://github.com/norklas/giv"}
         />
 
         <Project
